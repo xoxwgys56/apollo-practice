@@ -1,29 +1,8 @@
 import http from "http";
 import Koa from "koa";
-import { ApolloServer, gql } from "apollo-server-koa";
+import { ApolloServer } from "apollo-server-koa";
 
-const typeDefs = gql`
-  type Book {
-    title: String
-    author: String
-  }
-
-  type Query {
-    books: [Book]
-    book: [Book]
-  }
-`;
-
-const books = [
-  {
-    title: "The Awakening",
-    author: "Kate Chopin"
-  },
-  {
-    title: "City of Glass",
-    author: "Paul Auster"
-  }
-];
+import { typeDefs, books } from "./constants";
 
 const resolvers = {
   Query: {
