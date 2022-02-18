@@ -2,7 +2,6 @@ import http from "http";
 import Koa from "koa";
 import { ApolloServer, gql } from "apollo-server-koa";
 
-
 const typeDefs = gql`
   type Book {
     title: String

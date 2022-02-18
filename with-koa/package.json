@@ -1,20 +1,20 @@
 {
-    "name": "apollo-with-koa",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "Daewon Kim",
-    "license": "ISC",
-    "dependencies": {
-      "apollo-server-koa": "2.18",
-      "graphql": "^15.8.0",
-      "koa": "^2.13.4",
-      "prettier": "^2.5.1"
-    },
-    "type": "module"
-  }
-  
+  "name": "apollo-with-koa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "Daewon Kim",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-koa": "2.18",
+    "graphql": "^15.8.0",
+    "koa": "^2.13.4",
+    "prettier": "^2.5.1"
+  },
+  "type": "module"
+}
