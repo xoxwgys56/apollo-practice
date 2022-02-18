@@ -1,0 +1,25 @@
+{
+  "name": "apollo-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xoxwgys56/apollo-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xoxwgys56/apollo-practice/issues"
+  },
+  "homepage": "https://github.com/xoxwgys56/apollo-practice#readme",
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "prettier": "^2.5.1",
+    "pretty-quick": "^3.1.3"
+  }
+}
